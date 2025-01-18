@@ -1,8 +1,8 @@
 /* 廣告彈窗樣式 */
 .ad-popup {
   position: fixed;
-  width: 90%; /* 容器寬度占屏幕的 90% */
-  max-width: 250px; /* 最大寬度不超過 400px */
+  width: 100%; /* 容器寬度占螢幕的 90% */
+  max-width: 300px; /* 最大寬度不超過 400px */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -21,7 +21,7 @@
 
 .ad-popup img {
     width: 100%; /* 將圖片寬度設為容器的 100% */
-    max-width: 250px; /* 設置最大寬度，防止圖片過大 */
+    max-width: 300px; /* 設置最大寬度，防止圖片過大 */
     height: auto; /* 保持圖片比例縮放 */
     display: block;
     margin: 0 auto; /* 讓圖片居中 */
