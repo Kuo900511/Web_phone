@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
       // 取得當前滾動位置
       const scrollPosition = window.scrollY;
   
-      // 如果滾動到某個位置（例如大於 500px），顯示廣告
-      if (scrollPosition > 500) {
+      // 如果滾動到某個位置（例如大於 700px），顯示廣告
+      if (scrollPosition > 700) {
         if (!adPopup.classList.contains("active")) {
             adPopup.style.display = "block"; // 顯示廣告
             setTimeout(() => {
